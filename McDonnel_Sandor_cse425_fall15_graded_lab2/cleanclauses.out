@@ -1,0 +1,76 @@
+The valid HC is:
+ ( ( same a a ) )
+The valid HC is:
+ ( ( same 1 b ) )
+The valid HC is:
+ ( ( same c 2 ) )
+The valid HC is:
+ ( ( sametoo 1 2 ) )
+The valid HC is:
+ ( ( sametoo 2 2 ) )
+The valid HC is:
+ ( ( sametoo q q ) )
+The C/earlier Predicate is:
+lesser x y 
+The D/later predicate is:
+lesser x z 
+The required substitution list is: (value being changed, new value)
+y z
+The predicate that results from unification is:
+( lesser  x z )
+The C/earlier Predicate is:
+lesser x y 
+The D/later predicate is:
+lesser z y 
+The required substitution list is: (value being changed, new value)
+x z
+The predicate that results from unification is:
+( lesser  z y )
+The C/earlier Predicate is:
+lesser x z 
+The D/later predicate is:
+lesser z y 
+The required substitution list is: (value being changed, new value)
+x z
+z y
+The predicate that results from unification is:
+( lesser  y y )
+The valid HC is:
+ ( ( lesser x y ) ( ( lesser x z ) ( lesser z y ) ) )
+The valid HC is:
+ ( ( lesser z 3 ) )
+The C/earlier Predicate is:
+unifyme one two 
+The D/later predicate is:
+unifyme 1 2 
+The required substitution list is: (value being changed, new value)
+one 1
+two 2
+The predicate that results from unification is:
+( unifyme  1 2 )
+The valid HC is:
+ ( ( unifyme one two ) ( ( unifyme 1 2 ) ) )
+The valid HC is:
+ ( ( notsame a 1 ) )
+The valid HC is:
+ ( ( notsame 2 b ) )
+The valid HC is:
+ ( ( notsame c 3 ) )
+The labels and numbers in the entire file are:
+a
+b
+c
+lesser
+notsame
+one
+q
+same
+sametoo
+two
+unifyme
+x
+y
+z
+1
+2
+3

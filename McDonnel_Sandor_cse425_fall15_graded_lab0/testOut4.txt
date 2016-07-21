@@ -1,0 +1,2 @@
+some(just):-want(to)^use()
+others():-wants(to)

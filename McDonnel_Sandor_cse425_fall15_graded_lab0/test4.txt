@@ -1,0 +1,3 @@
+some ( just ) :- want ( to ) ^ use ( )
+others ( ) :- wants ( to )
+be used
